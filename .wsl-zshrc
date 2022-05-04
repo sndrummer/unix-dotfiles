@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+alias editwsl='vim ~/.wsl-zshrc && source ~/.wsl-zshrc'
+alias wsl_update='sudo apt-get update && sudo apt-get upgrade -y'
+alias wslupdate='sudo apt-get update && sudo apt-get upgrade -y'
+alias wu='wslupdate'
